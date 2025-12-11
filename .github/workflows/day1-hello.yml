@@ -4,5 +4,8 @@ jobs:
   say_hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello DevOpsMaster-Nikhil your Github actions run successfully"
+      - name: ST1
+        run: echo "Hello DevOpsMaster-Nikhil your Github actions run successfully 1"
+
+      - name: ST2
+        run: echo "Hello DevOs Master-Nikhil 2 successfully 2"
