@@ -1,0 +1,8 @@
+name: Day1 Hello
+on: push
+jobs: 
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello DevOpsMaster-Nikhil your Github actions run successfully"
