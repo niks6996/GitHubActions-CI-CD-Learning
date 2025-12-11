@@ -8,4 +8,4 @@ jobs:
         run: echo "Hello DevOpsMaster-Nikhil your Github actions run successfully 1"
 
       - name: ST2
-        run: echo "Whos is Master ${{ secrets.Day_2 }} "
+        run: echo "Whos is Master ${{ secrets.MY_DEMO_SECRET }} "
